@@ -1,4 +1,10 @@
 # AccuKnox_Assignment
+
+# Instructions
+### For theoretical explanations, refer to this README file.
+### For code implementation, please check the assignment_code.py file.
+
+
 ## Topic 1: Django Signals
 
 ### Question 1: Are Django Signals Executed Synchronously or Asynchronously?
@@ -37,6 +43,7 @@ This ensures data consistency.
 
 ### Proof from Code:
 instance.refresh_from_db() verifies changes made by the signal within the same transaction.
+
 
 
 ## Topic 2: Custom Classes in Python
