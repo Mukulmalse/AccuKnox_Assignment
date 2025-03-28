@@ -59,6 +59,9 @@ def demonstrate_transaction():
         instance.refresh_from_db()
         print(f"After Signal - Processed: {instance.processed}")
 
+
+
+
 # ----------------------
 # Topic: Custom Rectangle Class
 # ----------------------
